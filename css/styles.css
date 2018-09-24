@@ -4,12 +4,22 @@ body {
 
 .navbar {
   float: right;
-}
-
-.navbar {
   font-size: 31px;
 }
 
-.logo {
-  float: left;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  border-right: 1px solid white;
+}
+
+li a{
+  color: white;
 }
