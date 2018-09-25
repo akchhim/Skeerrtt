@@ -4,22 +4,63 @@ body {
 
 .navbar {
   float: right;
-  font-size: 31px;
+  font-size: 20px;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
     background-color: grey;
+    font-family: inherit;
 }
 
 li {
-  display: inline;
-  padding: 10px;
-  border-right: 1px solid white;
+    float: left;
 }
 
-li a{
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+a:hover {
   color: white;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2.5px;
+}
+
+.jumbot {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2.5px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
 }
