@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+   background-color: light-gray;
 }
 
 .navbar {
@@ -63,4 +63,33 @@ hr {
 .column {
   flex: 25%;
   padding: 5px;
+}
+
+/* break repair */
+
+.img {
+  -ms-transform: translate(50px, 100px);
+  -webkit-transform: translate(-500px, 45px);
+    transform: translate(100px 100px);
+}
+
+.BreakRepair {
+  -webkit-transform: translate(76px, 55px);
+  transform: translate(100px 100px);
+}
+
+/* break repair */
+
+/* Oil Change */
+
+.img2 {
+  -ms-transform: translate(50px, 100px);
+  -webkit-transform: translate(-230px, -90px);
+    transform: translate(100px 100px);
+}
+
+.OilChange {
+  -ms-transform: translate(50px, 100px);
+  -webkit-transform: translate(346px, -69px);
+    transform: translate(100px 100px);
 }
