@@ -56,14 +56,7 @@ hr {
   border-width: 2.5px;
 }
 
-.row {
-  display: flex;
-}
 
-.column {
-  flex: 25%;
-  padding: 5px;
-}
 
 /* break repair */
 
@@ -91,5 +84,19 @@ hr {
 .OilChange {
   -ms-transform: translate(50px, 100px);
   -webkit-transform: translate(346px, -69px);
+    transform: translate(100px 100px);
+}
+/* Oil Change */
+
+/* Supension Repair */
+.img4 {
+  -ms-transform: translate(50px, 100px);
+  -webkit-transform: translate(-230px, -90px);
+    transform: translate(100px 100px);
+}
+
+.Supension {
+  -ms-transform: translate(50px, 100px);
+  -webkit-transform: translate(-230px, -90px);
     transform: translate(100px 100px);
 }
