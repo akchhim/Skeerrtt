@@ -35,3 +35,24 @@ li a:hover {
 a:hover {
   color: white;
 }
+ img {
+   width: 80px;
+   height: 80px;
+ }
+
+ p {
+   color: black;
+
+ }
+
+ .grid-container {
+   display: inline-grid;
+   grid-template-rows: auto;
+   grid-template-columns: 80px 80px 80px 80px 80px;
+   padding-left: 20px;
+   padding-top: 20px;
+   
+ }
+.grid-item {
+display: inline-grid;
+}
