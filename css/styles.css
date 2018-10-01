@@ -49,6 +49,8 @@ div.menuBar li.active a {
    color: black;
    position: relative;
    margin-top: auto;
+   display: run-in;
+   padding-top: 10px;
 
  }
 
@@ -59,8 +61,18 @@ div.menuBar li.active a {
    padding-left: 20px;
    padding-top: 20px;
 
+
  }
 .grid-item {
 display: inline-grid;
 margin: auto;
+margin-top: 70px;
+margin-right: 60px;
+}
+
+button {
+  background-color:  #ff6600;
+  box-shadow: 10px 10px grey;
+  border: 3px solid black;
+  background-image: url(https://c1.staticflickr.com/3/2545/32808004845_8c2b80f6a7_b.jpg);
 }
