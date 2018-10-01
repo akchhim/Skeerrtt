@@ -1,5 +1,5 @@
 body {
-   background-color: light-gray;
+   background-color: #DCDCDC;
 }
 
 .navbar {
@@ -28,11 +28,15 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
     background-color: black;
 }
 
-a:hover {
+li .active {
+    background-color: #990000;
+}
+
+div.menuBar li.active a {
   color: white;
 }
  img {
@@ -42,6 +46,8 @@ a:hover {
 
  p {
    color: black;
+   position: relative;
+   margin-top: auto;
 
  }
 
@@ -51,8 +57,9 @@ a:hover {
    grid-template-columns: 80px 80px 80px 80px 80px;
    padding-left: 20px;
    padding-top: 20px;
-   
+
  }
 .grid-item {
 display: inline-grid;
+margin: auto;
 }
