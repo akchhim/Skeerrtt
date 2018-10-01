@@ -1,10 +1,13 @@
 body {
    background-color: #DCDCDC;
+
 }
 
 .navbar {
   float: right;
   font-size: 20px;
+  border: 3px solid black;
+  margin-top: 9px;
 }
 
 ul {
@@ -59,14 +62,14 @@ div.menuBar li.active a {
    grid-template-columns: 80px 80px 80px 80px 80px;
    padding-left: 20px;
    padding-top: 20px;
-
-
+   border-bottom: 3px solid black;
+   height: 85px;
  }
 .grid-item {
 display: inline-grid;
 margin: auto;
-margin-top: 70px;
-margin-right: 60px;
+margin-top: 100px;
+margin-left: 130px;
 }
 
 button {
@@ -74,4 +77,9 @@ button {
   box-shadow: 10px 10px grey;
   border: 3px solid black;
   background-image: url(https://c1.staticflickr.com/3/2545/32808004845_8c2b80f6a7_b.jpg);
+}
+
+.top {
+  border: 3px solid black;
+  height: 255px;
 }
