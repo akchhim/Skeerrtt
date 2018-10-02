@@ -20,7 +20,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: grey;
-    font-family: inherit;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 li {
@@ -58,6 +58,7 @@ div.menuBar li.active a {
    margin-top: auto;
    display: run-in;
    padding-top: 10px;
+   font-family: 'Archivo Narrow', sans-serif;
 
  }
 
@@ -87,6 +88,11 @@ button {
 .top {
   border: 3px solid black;
   height: 255px;
+}
+
+.contacttop {
+  border: 3px solid black;
+  height: 175px;
 }
 
 {box-sizing: border-box;}
@@ -142,4 +148,21 @@ body {
   .topnav input[type=text] {
     border: 1px solid black;
   }
+}
+
+.contacttop {
+  border-width: medium;
+}
+
+.h1contact {
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.email {
+  border: 2px solid black;
+  overflow: hidden;
+  display: inline-flex;
+  padding: 5px
 }
