@@ -21,7 +21,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: grey;
-    font-family: inherit;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 li {
@@ -59,6 +59,7 @@ div.menuBar li.active a {
    margin-top: auto;
    display: run-in;
    padding-top: 10px;
+   font-family: 'Archivo Narrow', sans-serif;
 
  }
 
@@ -92,6 +93,11 @@ button {
   background-image: url();
   background-repeat: no-repeat;
   }
+
+.contacttop {
+  border: 3px solid black;
+  height: 175px;
+}
 
 {box-sizing: border-box;}
 
@@ -148,6 +154,7 @@ body {
   }
 }
 
+<<<<<<< HEAD
 
 footer {
 background-color: gray;
@@ -177,4 +184,21 @@ opacity: .5;
 
 #nava {
 
+=======
+.contacttop {
+  border-width: medium;
+}
+
+.h1contact {
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.email {
+  border: 2px solid black;
+  overflow: hidden;
+  display: inline-flex;
+  padding: 5px
+>>>>>>> 66a8822378f9d2cb519b59f5d588f14a6b3ca8b6
 }
