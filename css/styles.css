@@ -64,14 +64,12 @@ div.menuBar li.active a {
  }
 
  .grid-container {
-   display: inline-grid;
-   grid-template-rows: auto;
-   grid-template-columns: 80px 80px 80px 80px 80px;
    padding-left: 20px;
    padding-top: 20px;
    height: 40px;
-background-image: url(https://www.army.mil/e2/c/images/2018/09/04/528824/size0.jpg);
+   background-image: url(https://www.army.mil/e2/c/images/2018/09/04/528824/size0.jpg);
 height: 250px;
+width: auto;
  }
 
 .grid-item {
