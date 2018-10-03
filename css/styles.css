@@ -154,7 +154,7 @@ body {
   }
 }
 
-<<<<<<< HEAD
+
 
 footer {
 background-color: gray;
@@ -184,7 +184,7 @@ opacity: .5;
 
 #nava {
 
-=======
+}
 .contacttop {
   border-width: medium;
 }
@@ -200,5 +200,5 @@ opacity: .5;
   overflow: hidden;
   display: inline-flex;
   padding: 5px
->>>>>>> 66a8822378f9d2cb519b59f5d588f14a6b3ca8b6
+
 }
