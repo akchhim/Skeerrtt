@@ -184,15 +184,14 @@ opacity: .5;
 
 #nava {
 
-=======
 .contacttop {
   border-width: medium;
 }
 
-.h1contact {
-  text-align: center;
+h1 {
   font-size: 65px;
   font-family: 'Archivo Narrow', sans-serif;
+  text-align: center;
 }
 
 .email {
@@ -200,5 +199,8 @@ opacity: .5;
   overflow: hidden;
   display: inline-flex;
   padding: 5px
->>>>>>> 66a8822378f9d2cb519b59f5d588f14a6b3ca8b6
+}
+
+.reset {
+  background-color: green;
 }
