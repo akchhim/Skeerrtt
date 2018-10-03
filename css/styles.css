@@ -68,8 +68,9 @@ div.menuBar li.active a {
    padding-top: 20px;
    height: 40px;
    background-image: url(https://www.army.mil/e2/c/images/2018/09/04/528824/size0.jpg);
-height: 250px;
-width: 850px;
+    height: 250px;
+    width: 1900px;
+      background-repeat: no-repeat;
  }
 
 .grid-item {
