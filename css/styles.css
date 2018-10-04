@@ -79,8 +79,8 @@ div.menuBar li.active a {
 .grid-item {
 display: inline-grid;
 margin: auto;
-margin-top: 30px;
-margin-left: 60px;
+margin-top: 40px;
+margin-left: 70px;
 }
 
 button {
