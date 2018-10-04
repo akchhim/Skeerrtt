@@ -78,8 +78,8 @@ div.menuBar li.active a {
 .grid-item {
 display: inline-grid;
 margin: auto;
-margin-top: 75px;
-margin-left: 35px;
+margin-top: 65px;
+margin-left: 10px;
 }
 
 button {
@@ -173,7 +173,8 @@ opacity: .5;
 
 #map {
   height: 150px;
-  width: 150px;
+  width: 950px;
+  float:left;
 }
 
 .fbody {
