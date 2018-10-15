@@ -21,7 +21,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: grey;
-    font-family: 'Archivo Narrow', sans-serif;
 }
 
 li {
@@ -59,7 +58,6 @@ div.menuBar li.active a {
    margin-top: auto;
    display: run-in;
    padding-top: 10px;
-   font-family: 'Archivo Narrow', sans-serif;
 
  }
 
@@ -190,27 +188,26 @@ opacity: .5;
 
 }
 
+/* Contact Page */
+
 .contacttop {
   border-width: medium;
 }
 
 h1 {
   font-size: 65px;
-  font-family: 'Archivo Narrow', sans-serif;
   text-align: center;
 }
 
-.email {
-  border: 2px solid black;
+.emailpage {
   overflow: hidden;
   display: inline-flex;
-  padding: 5px
-<<<<<<< HEAD
-  outline: thick ridge green;
-=======
->>>>>>> dc4eb5a84e8e48f3f6ceec181dc28db48a17568c
+  padding: 8px;
+  border-style: inset;
 }
 
-.reset {
-  background-color: green;
+.contactbutton {
+box-shadow: 3px 3px grey;
 }
+
+/* social media buttons vvv */
