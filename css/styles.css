@@ -67,17 +67,19 @@ div.menuBar li.active a {
    padding-left: 20px;
    padding-top: 20px;
    height: 40px;
-   background-image: url(https://www.army.mil/e2/c/images/2018/09/04/528824/size0.jpg);
-    height: 250px;
-    width: 1900px;
-      background-repeat: no-repeat;
+   background-image: url(https://c1.staticflickr.com/9/8642/16785754265_f302a81fb1_b.jpg);
+   background-size: cover;
+   width: 1275px;
+   height: 250px;
+    background-repeat: no-repeat;
+    z-index: -1;
  }
 
 .grid-item {
 display: inline-grid;
 margin: auto;
-margin-top: 70px;
-margin-left: 130px;
+margin-top: 45px;
+margin-left: 10px;
 }
 
 button {
@@ -171,7 +173,8 @@ opacity: .5;
 
 #map {
   height: 150px;
-  width: 150px;
+  width: 950px;
+  float:left;
 }
 
 .fbody {
@@ -183,11 +186,10 @@ opacity: .5;
 
 #nava {
 
-<<<<<<< HEAD
-=======
+
+
 }
 
->>>>>>> 6f12c991d74f174adae16e0d710160281da3c3d6
 .contacttop {
   border-width: medium;
 }
@@ -203,7 +205,10 @@ h1 {
   overflow: hidden;
   display: inline-flex;
   padding: 5px
+<<<<<<< HEAD
   outline: thick ridge green;
+=======
+>>>>>>> dc4eb5a84e8e48f3f6ceec181dc28db48a17568c
 }
 
 .reset {
