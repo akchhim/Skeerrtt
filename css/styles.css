@@ -108,6 +108,7 @@ body {
 .topnav {
   overflow: hidden;
   margin-top: 30px;
+  margin-bottom: 2px;
 }
 
 .topnav a {
