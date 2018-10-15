@@ -79,6 +79,7 @@ div.menuBar li.active a {
 display: inline-grid;
 margin-top: 35px;
 margin-left: 1px;
+float: left;
 }
 
 button {
@@ -184,9 +185,9 @@ opacity: .5;
 }
 
 .mind {
-float: left;
-margin-right: auto;
 
+
+margin-bottom: 90px;
 }
 
 .contacttop {
