@@ -203,12 +203,9 @@ h1 {
   overflow: hidden;
   display: inline-flex;
   padding: 5px
-<<<<<<< HEAD
+  outline: thick ridge green;
 }
 
 .reset {
   background-color: green;
-=======
-
->>>>>>> 6f12c991d74f174adae16e0d710160281da3c3d6
 }
