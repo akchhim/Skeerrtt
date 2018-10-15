@@ -204,11 +204,9 @@ h1 {
   border: 2px solid black;
   overflow: hidden;
   display: inline-flex;
-  padding: 5px
-<<<<<<< HEAD
+  padding: 5px;
   outline: thick ridge green;
-=======
->>>>>>> dc4eb5a84e8e48f3f6ceec181dc28db48a17568c
+
 }
 
 .reset {
