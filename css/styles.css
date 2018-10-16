@@ -75,7 +75,7 @@ div.menuBar li.active a {
 
 .grid-item {
 display: inline-grid;
-margin-top: 55px;
+margin-top: 65px;
 margin-left: 2px;
 float: left;
 }
@@ -108,6 +108,7 @@ body {
 .topnav {
   overflow: hidden;
   margin-top: 30px;
+  margin-bottom: 2px;
 }
 
 .topnav a {
