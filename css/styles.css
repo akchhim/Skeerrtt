@@ -1,5 +1,5 @@
 body {
-   background-color: #DCDCDC;
+   background-color: white;
 
 }
 #im {
@@ -202,14 +202,10 @@ h1 {
 .emailpage {
   overflow: hidden;
   display: inline-flex;
-<<<<<<< HEAD
   padding: 8px;
   border-style: inset;
-=======
-  padding: 5px;
-  outline: thick ridge green;
-
->>>>>>> 86824c1c131098c63afd2088b1029ed0fb32f90b
+  padding: 8px;
+  float: left;
 }
 
 .contactbutton {
