@@ -65,19 +65,21 @@ div.menuBar li.active a {
    padding-left: 20px;
    padding-top: 20px;
    height: 40px;
-   background-image: url(https://lh3.googleusercontent.com/SgWefp1xoxVaMShBPiED5fZx55Pr3sefRKXamYtiJSZ_EN5DdcLnHUSQxnjKW0RQ0Q);
    background-size: cover;
-   width: 1275px;
-   height: 250px;
+   width: 1280px;
+   height: 150px;
     background-repeat: no-repeat;
     z-index: -1;
+    border: 3px solid black;
+    margin-top: 250px;
+    margin-right: 2px;
  }
 
 .grid-item {
 display: inline-grid;
-margin-top: 65px;
-margin-left: 2px;
-float: left;
+margin-top: 10px;
+margin-left: 150px;
+
 }
 
 button {
@@ -89,7 +91,16 @@ button {
 .top {
   border: 3px solid black;
   height: 255px;
-  background-image: url();
+  background: rgba(179,179,177,1);
+  background: -moz-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(11%, rgba(179,179,177,1)), color-stop(16%, rgba(185,184,169,1)), color-stop(76%, rgba(252,243,70,1)), color-stop(100%, rgba(252,243,70,1)));
+  background: -webkit-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  background: -o-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  background: -ms-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b1', endColorstr='#fcf346', GradientType=0 );
+  width: 1280px;
+  z-index: -1;
   background-repeat: no-repeat;
   }
 
@@ -107,8 +118,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  margin-top: 30px;
-  margin-bottom: 2px;
+  margin-top: 150px;
 }
 
 .topnav a {
@@ -203,14 +213,11 @@ h1 {
 .emailpage {
   overflow: hidden;
   display: inline-flex;
-<<<<<<< HEAD
   padding: 8px;
   border-style: inset;
-=======
   padding: 5px;
   outline: thick ridge green;
 
->>>>>>> 86824c1c131098c63afd2088b1029ed0fb32f90b
 }
 
 .contactbutton {
