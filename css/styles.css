@@ -1,5 +1,5 @@
 body {
-   background-color: #DCDCDC;
+   background-color: white;
 
 }
 #im {
@@ -215,9 +215,14 @@ h1 {
   display: inline-flex;
   padding: 8px;
   border-style: inset;
+<<<<<<< HEAD
   padding: 5px;
   outline: thick ridge green;
 
+=======
+  padding: 8px;
+  float: left;
+>>>>>>> 3dd2a40c0554737d0d9feb7a43025cd2d8a13a0a
 }
 
 .contactbutton {
