@@ -53,7 +53,7 @@ div.menuBar li.active a {
  }
 
  p {
-   color: white;
+   color: black;
    position: relative;
    margin-top: auto;
    display: run-in;
@@ -129,6 +129,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+    border: 3px solid black;
 }
 
 .topnav a:hover {
@@ -137,7 +138,13 @@ body {
 }
 
 .topnav a.active {
-  color: white;
+  background: -moz-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(11%, rgba(179,179,177,1)), color-stop(16%, rgba(185,184,169,1)), color-stop(76%, rgba(252,243,70,1)), color-stop(100%, rgba(252,243,70,1)));
+  background: -webkit-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  background: -o-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  background: -ms-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr
 }
 
 .topnav input[type=text] {
@@ -173,6 +180,7 @@ position: fixed;
     bottom: 30px;
  display: block;
  border: 3px solid black;
+ margin-top: 400px;
 }
 
 .nice {
@@ -180,11 +188,6 @@ position: fixed;
 opacity: .5;
 }
 
-#map {
-  height: 150px;
-  width: 950px;
-  float:left;
-}
 
 .fbody {
   float: bottom;
@@ -194,8 +197,6 @@ opacity: .5;
 }
 
 .mind {
-
-
 margin-bottom: 90px;
 }
 
@@ -215,18 +216,19 @@ h1 {
   display: inline-flex;
   padding: 8px;
   border-style: inset;
-<<<<<<< HEAD
   padding: 5px;
   outline: thick ridge green;
-
-=======
   padding: 8px;
   float: left;
->>>>>>> 3dd2a40c0554737d0d9feb7a43025cd2d8a13a0a
+
 }
 
 .contactbutton {
 box-shadow: 3px 3px grey;
+}
+
+map {
+  float: left;
 }
 
 /* social media buttons vvv */
