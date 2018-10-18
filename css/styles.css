@@ -110,8 +110,6 @@ button {
   height: 175px;
 }
 
-
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -168,12 +166,11 @@ body {
     margin: 0;
     padding: 14px;
   }
+
   .topnav input[type=text] {
     border: 1px solid black;
   }
 }
-
-
 
 footer {
 background-color: gray;
@@ -202,15 +199,13 @@ opacity: .5;
 margin-bottom: 90px;
 }
 
-
-
 /* Contact Page */
 
 h1 {
-  text-align: center;
-  font-size: 70px;
   font-weight: bold;
 }
+<<<<<<< HEAD
+=======
 
 h3 {
   text-align: center;
@@ -402,3 +397,4 @@ ul.social-icons {
 .fa-google-plus:hover {
     background-color: #e25714;
 }
+>>>>>>> 3ce208dfda4c5349a313ada79f9203e602faa13e
