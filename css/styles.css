@@ -78,7 +78,7 @@ div.menuBar li.active a {
 .grid-item {
 display: inline-grid;
 margin-top: 10px;
-margin-left: 150px;
+margin-left: 60px;
 
 }
 
@@ -249,7 +249,7 @@ textarea {
   height: 150px;
   line-height: 150%;
   resize:vertical;
-=======
+}
 .emailpage {
   overflow: hidden;
   display: inline-flex;
@@ -260,8 +260,7 @@ textarea {
   padding: 8px;
   float: left;
 
->>>>>>> 50b9a54654ff87e7f91f7a5f3e10f85fb1317c21
-}
+
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -279,13 +278,13 @@ textarea {
   font-weight:700;
 }
 
-<<<<<<< HEAD
+
 [type="submit"]:hover { background:#CC4949; }
-=======
+
 map {
   float: left;
 }
->>>>>>> 50b9a54654ff87e7f91f7a5f3e10f85fb1317c21
+
 
 /* social media buttons vvv */
 
