@@ -68,11 +68,11 @@ div.menuBar li.active a {
    background-size: cover;
    width: 1280px;
    height: 150px;
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7F_ILY2ARBzNdFXy-ykm3sWe2cNFuy7JZB3eW5MXbihSmYZrSnQ);
+   background-image: url(http://st.gde-fon.com/wallpapers_original/243414_tekstura_metall_zhelezo_3885x2565_www.Gde-Fon.com.jpg);
     background-repeat: no-repeat;
     z-index: -1;
     border: 3px solid black;
-    margin-top: 250px;
+    margin-top: 196px;
     margin-right: 2px;
  }
 
@@ -174,13 +174,13 @@ body {
 
 footer {
 background-color: gray;
-position: fixed;
-    left: 30px;
-    bottom: 30px;
+left: 30px;
+bottom: 30px;
  display: block;
  border: 3px solid black;
- margin-top: 400px;
+ margin-top: 25px;
  float: left;
+ margin-left: 60px;
 }
 
 .nice {
@@ -189,24 +189,40 @@ opacity: .5;
 }
 
 
-.fbody {
+.hfoot {
   float: bottom;
   left: 30px;
   bottom: 30px;
   float: right;
+   border: 1px solid black;
 }
 
 .mind {
 margin-bottom: 90px;
 }
 
+#myCarousel {
+  height: 225px;
+  width: 650px;
+}
+
+#mochi {
+  width: 100%;
+  height: 100px;
+  margin-top: 150px;
+  border: 3px solid black;
+}
+
+.item {
+  width: 650px;
+  height: 225px;
+}
 /* Contact Page */
 
 h1 {
   font-weight: bold;
 }
-<<<<<<< HEAD
-=======
+
 
 h3 {
   text-align: center;
@@ -279,9 +295,7 @@ textarea {
 
 [type="submit"]:hover { background:#CC4949; }
 
-map {
-  float: left;
-}
+
 
 
 /* social media buttons vvv */
@@ -398,4 +412,3 @@ ul.social-icons {
 .fa-google-plus:hover {
     background-color: #e25714;
 }
->>>>>>> 3ce208dfda4c5349a313ada79f9203e602faa13e
