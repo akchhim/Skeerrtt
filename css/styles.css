@@ -1,5 +1,5 @@
 body {
-   background-color: white;
+   background-color: grey;
 
 }
 #im {
@@ -144,8 +144,9 @@ body {
   background: -o-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
   background: -ms-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
   background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr
+      margin-top: 150px;
 }
+
 
 .topnav input[type=text] {
   float: left;
@@ -217,7 +218,7 @@ h3 {
   font-size: 20px;
 }
 
-<<<<<<< HEAD
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 .contactform {
