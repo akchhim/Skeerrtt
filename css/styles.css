@@ -68,6 +68,7 @@ div.menuBar li.active a {
    background-size: cover;
    width: 1280px;
    height: 150px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7F_ILY2ARBzNdFXy-ykm3sWe2cNFuy7JZB3eW5MXbihSmYZrSnQ);
     background-repeat: no-repeat;
     z-index: -1;
     border: 3px solid black;
