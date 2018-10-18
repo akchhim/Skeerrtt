@@ -143,7 +143,7 @@ body {
   background: -o-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
   background: -ms-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
   background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-      margin-top: 150px;
+      margin-top: 65px;
 }
 
 
@@ -180,6 +180,7 @@ position: fixed;
  display: block;
  border: 3px solid black;
  margin-top: 400px;
+ float: left;
 }
 
 .nice {
