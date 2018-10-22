@@ -223,6 +223,28 @@ h1 {
   text-align: center;
   font-size: 60px;
   font-weight: bold;
+  overflow: hidden;
+}
+
+h1:before,
+h1:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 3px;
+ position: relative;
+ vertical-align: middle;
+ width: 25%;
+}
+
+h1:before{
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after{
+  left: 0.5em;
+  margin-right: -50%;
 }
 
 h3 {
@@ -433,6 +455,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-facebook:hover {
@@ -447,6 +470,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-twitter:hover {
@@ -461,6 +485,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-rss:hover {
@@ -475,6 +500,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-youtube:hover {
@@ -489,6 +515,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-linkedin:hover {
@@ -503,6 +530,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-google-plus:hover {
