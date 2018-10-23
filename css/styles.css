@@ -128,7 +128,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-    border: 3px solid black;
+  border: 3px solid black;
 }
 
 .topnav a:hover {
@@ -143,7 +143,7 @@ body {
   background: -o-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
   background: -ms-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
   background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-      margin-top: 65px;
+  margin-top: 65px;
 }
 
 
@@ -185,7 +185,7 @@ bottom: 30px;
 
 .nice {
   float: right;
-opacity: .5;
+  opacity: .5;
 }
 
 
@@ -198,7 +198,7 @@ opacity: .5;
 }
 
 .mind {
-margin-bottom: 90px;
+  margin-bottom: 90px;
 }
 
 #myCarousel {
@@ -219,10 +219,43 @@ margin-bottom: 90px;
 }
 /* Contact Page */
 
+.phone {
+  text-decoration: none;
+}
+
+.phonenumber {
+  transform: translate(950px, -340px);
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  text-decoration-color: black;
+
+}
+
+.phoneicon {
+  float: right;
+  transform: translate(-450px, -340px);
+  height: 60px;
+  width: 60px;
+}
+
+.mailicon {
+  float: right;
+  height: 70px;
+  width: 70px;
+  transform: translate(-385px, -310px);
+}
+
+.emailaddress {
+  float: right;
+  transform: translate(-45px, -300px);
+  font-weight: bold;
+}
+
 h1 {
   text-align: center;
   font-size: 60px;
-  font-weight: bold;
+  font-weight: lighter;
   overflow: hidden;
 }
 
@@ -332,14 +365,15 @@ input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
 
 #form {
   position: relative;
-  width: 850px;
+  width: 1200px;
   margin: 50px auto 100px auto;
+  border-radius: 5px
 }
 
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 850px;
+  width: 650px;
   height: 50px;
   padding: 0px 15px 0px 15px;
 
@@ -357,8 +391,8 @@ input {
 }
 
 textarea {
-  width: 850px;
-  max-width: 850px;
+  width: 650px;
+  max-width: 650px;
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -380,7 +414,7 @@ textarea {
 
 
 #submit {
-  width: 850px;
+  width: 650px;
 
   padding: 0;
   margin: -5px 0px 0px 0px;
