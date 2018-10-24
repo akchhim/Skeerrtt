@@ -133,7 +133,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-    border: 3px solid black;
+  border: 3px solid black;
 }
 
 .topnav a:hover {
@@ -148,7 +148,7 @@ body {
   background: -o-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
   background: -ms-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
   background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-      margin-top: 65px;
+  margin-top: 65px;
 }
 
 
@@ -190,7 +190,7 @@ bottom: 30px;
 
 .nice {
   float: right;
-opacity: .5;
+  opacity: .5;
 }
 
 
@@ -203,7 +203,7 @@ opacity: .5;
 }
 
 .mind {
-margin-bottom: 90px;
+  margin-bottom: 90px;
 }
 
 #myCarousel {
@@ -245,10 +245,65 @@ height: 950px;
 }
 /* Contact Page */
 
+.phone {
+  text-decoration: none;
+}
+
+.phonenumber {
+  transform: translate(950px, -340px);
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  text-decoration-color: black;
+
+}
+
+.phoneicon {
+  float: right;
+  transform: translate(-450px, -340px);
+  height: 60px;
+  width: 60px;
+}
+
+.mailicon {
+  float: right;
+  height: 70px;
+  width: 70px;
+  transform: translate(-385px, -310px);
+}
+
+.emailaddress {
+  float: right;
+  transform: translate(-45px, -300px);
+  font-weight: bold;
+}
+
 h1 {
   text-align: center;
   font-size: 60px;
-  font-weight: bold;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+h1:before,
+h1:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 3px;
+ position: relative;
+ vertical-align: middle;
+ width: 25%;
+}
+
+h1:before{
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after{
+  left: 0.5em;
+  margin-right: -50%;
 }
 
 h3 {
@@ -336,14 +391,15 @@ input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
 
 #form {
   position: relative;
-  width: 850px;
+  width: 1200px;
   margin: 50px auto 100px auto;
+  border-radius: 5px
 }
 
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 850px;
+  width: 650px;
   height: 50px;
   padding: 0px 15px 0px 15px;
 
@@ -361,8 +417,8 @@ input {
 }
 
 textarea {
-  width: 850px;
-  max-width: 850px;
+  width: 650px;
+  max-width: 650px;
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -384,7 +440,7 @@ textarea {
 
 
 #submit {
-  width: 850px;
+  width: 650px;
 
   padding: 0;
   margin: -5px 0px 0px 0px;
@@ -406,10 +462,10 @@ textarea {
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 .socialmediaicons {
-  text-align: center;
+  transform: translate(850px, -190px);
 }
 
-h1, h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
     margin:  1% 0 1% 0;
 }
 
@@ -452,13 +508,14 @@ ul.social-icons {
 }
 
 .fa-facebook {
-    padding: 30px 22px;
+    padding: 10px 12px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-facebook:hover {
@@ -466,13 +523,14 @@ ul.social-icons {
 }
 
 .fa-twitter {
-    padding: 30px 20px;
+    padding: 10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-twitter:hover {
@@ -480,13 +538,14 @@ ul.social-icons {
 }
 
 .fa-rss {
-    padding: 30px 20px;
+    padding: 10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-rss:hover {
@@ -494,13 +553,14 @@ ul.social-icons {
 }
 
 .fa-youtube {
-    padding: 30px 20px;
+    padding: 10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-youtube:hover {
@@ -508,13 +568,14 @@ ul.social-icons {
 }
 
 .fa-linkedin {
-    padding: 30px 20px;
+    padding: 10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-linkedin:hover {
@@ -522,13 +583,14 @@ ul.social-icons {
 }
 
 .fa-google-plus {
-    padding: 30px 17px;
+    padding: 10px 7px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #322f30;
+    border-radius: 5px;
 }
 
 .fa-google-plus:hover {
