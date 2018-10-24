@@ -436,10 +436,10 @@ textarea {
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 .socialmediaicons {
-  text-align: center;
+  transform: translate(850px, -190px);
 }
 
-h1, h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
     margin:  1% 0 1% 0;
 }
 
@@ -482,7 +482,7 @@ ul.social-icons {
 }
 
 .fa-facebook {
-    padding: 30px 22px;
+    padding: 10px 12px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -497,7 +497,7 @@ ul.social-icons {
 }
 
 .fa-twitter {
-    padding: 30px 20px;
+    padding: 10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -512,7 +512,7 @@ ul.social-icons {
 }
 
 .fa-rss {
-    padding: 30px 20px;
+    padding: 10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -527,7 +527,7 @@ ul.social-icons {
 }
 
 .fa-youtube {
-    padding: 30px 20px;
+    padding: 10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -542,7 +542,7 @@ ul.social-icons {
 }
 
 .fa-linkedin {
-    padding: 30px 20px;
+    padding: 10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -557,7 +557,7 @@ ul.social-icons {
 }
 
 .fa-google-plus {
-    padding: 30px 17px;
+    padding: 10px 7px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
