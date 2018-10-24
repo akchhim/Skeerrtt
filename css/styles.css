@@ -72,14 +72,19 @@ div.menuBar li.active a {
     background-repeat: no-repeat;
     z-index: -1;
     border: 3px solid black;
-    margin-top: 196px;
-    margin-right: 2px;
+    margin-top: 50px;
+
  }
 
 .grid-item {
 display: inline-grid;
-margin-top: 10px;
-margin-left: 60px;
+margin-top: 5px;
+margin-left: 55px;
+float:left;
+}
+
+#king-kong{
+  width: 300px;
 
 }
 
@@ -211,11 +216,32 @@ margin-bottom: 90px;
   height: 100px;
   margin-top: 150px;
   border: 3px solid black;
+  background-image: url(http://st.gde-fon.com/wallpapers_original/243414_tekstura_metall_zhelezo_3885x2565_www.Gde-Fon.com.jpg)
+background-repeat: no-repeat;
+margin-right: 15px;
 }
 
 .item {
   width: 650px;
   height: 225px;
+}
+
+#full {
+border: 3px solid black;
+background: #0060f5;
+height: 1000px;
+widht: 1000px;
+}
+
+#half {
+border: 3px solid black;
+background: #ffff5a;
+width: 750px;
+height: 950px;
+}
+
+#man {
+ margin-top: 300px;
 }
 /* Contact Page */
 
