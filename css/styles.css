@@ -53,7 +53,7 @@ div.menuBar li.active a {
  }
 
  p {
-   color: black;
+   color: white;
    position: relative;
    margin-top: auto;
    display: run-in;
@@ -67,7 +67,7 @@ div.menuBar li.active a {
    height: 40px;
    background-size: cover;
    width: 1280px;
-   height: 150px;
+   height: 165px;
    background-image: url(http://st.gde-fon.com/wallpapers_original/243414_tekstura_metall_zhelezo_3885x2565_www.Gde-Fon.com.jpg);
     background-repeat: no-repeat;
     z-index: -1;
@@ -78,7 +78,7 @@ div.menuBar li.active a {
 
 .grid-item {
 display: inline-grid;
-margin-top: 5px;
+margin-top: 0px;
 margin-left: 55px;
 float:left;
 }
@@ -209,14 +209,35 @@ bottom: 30px;
 #myCarousel {
   height: 225px;
   width: 650px;
+  margin-top: 55px;
+  margin-left: 10px
 }
 
+#idc {
+  border: 3px solid black;
+  margin-top: 40px;
+  height: 900px;
+  width: 1000px;
+  margin-left: 150px;
+  background-image:url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/06/19/19580f1d0ed3690.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#back {
+  background-image:url(https://www.publicdomainpictures.net/pictures/210000/nahled/tire-tracks-background.jpg);
+  position: sticky;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 100%;
+  background-size: cover;
+
+}
 #mochi {
   width: 100%;
   height: 100px;
-  margin-top: 150px;
+  margin-top: 0px;
   border: 3px solid black;
-  background-image: url(http://st.gde-fon.com/wallpapers_original/243414_tekstura_metall_zhelezo_3885x2565_www.Gde-Fon.com.jpg)
+  background-image: url(http://st.gde-fon.com/wallpapers_original/243414_tekstura_metall_zhelezo_3885x2565_www.Gde-Fon.com.jpg);
 background-repeat: no-repeat;
 margin-right: 15px;
 }
@@ -230,7 +251,7 @@ margin-right: 15px;
 border: 3px solid black;
 background: #0060f5;
 height: 1000px;
-widht: 1000px;
+width: 1000px;
 }
 
 #half {
@@ -242,6 +263,33 @@ height: 950px;
 
 #man {
  margin-top: 300px;
+}
+
+iframe {
+  float: right;
+}
+
+#video{
+  margin-bottom: 150px;
+}
+
+#video2 {
+  margin-top: 315px;
+}
+
+#noon {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 60px;
+}
+
+#ready {
+  color: white;
+}
+
+#toot {
+  width: 450px;
+  height: 250px;
 }
 /* Contact Page */
 
