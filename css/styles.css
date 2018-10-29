@@ -68,7 +68,7 @@ div.menuBar li.active a {
    background-size: cover;
    width: 1277px;
    span:100%;
-   height: 165px;
+   height: 250px;
    background-image: url(http://st.gde-fon.com/wallpapers_original/243414_tekstura_metall_zhelezo_3885x2565_www.Gde-Fon.com.jpg);
     background-repeat: no-repeat;
     z-index: -1;
@@ -82,11 +82,19 @@ display: inline-grid;
 margin-top: 0px;
 margin-left: 55px;
 float:left;
+transition: transform .2s;
+}
+
+.grid-item:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 #king-kong{
   width: 300px;
-
+  image-resolution: from-image;
+  background-blend-mode: soft-light;
 }
 
 
@@ -105,14 +113,9 @@ button {
 .top {
   border: 3px solid black;
   height: 255px;
-  background: rgba(179,179,177,1);
-  background: -moz-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(11%, rgba(179,179,177,1)), color-stop(16%, rgba(185,184,169,1)), color-stop(76%, rgba(252,243,70,1)), color-stop(100%, rgba(252,243,70,1)));
-  background: -webkit-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  background: -o-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  background: -ms-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b1', endColorstr='#fcf346', GradientType=0 );
+  background-image: url(http://www.transformproperty.co.in/blog/wp-content/uploads/2014/05/Dark-Grey-Background-103.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
   width: 1280px;
   z-index: -1;
   background-repeat: no-repeat;
@@ -158,7 +161,14 @@ body {
   background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
   margin-top: 65px;
 }
-
+background: rgba(179,179,177,1);
+background: -moz-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(11%, rgba(179,179,177,1)), color-stop(16%, rgba(185,184,169,1)), color-stop(76%, rgba(252,243,70,1)), color-stop(100%, rgba(252,243,70,1)));
+background: -webkit-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+background: -o-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+background: -ms-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b1', endColorstr='#fcf346', GradientType=0 );
 
 .topnav input[type=text] {
   float: left;
@@ -233,6 +243,7 @@ bottom: 30px;
 }
 #back {
   background-image:url(https://www.publicdomainpictures.net/pictures/210000/nahled/tire-tracks-background.jpg);
+  background-attachment: fixed;
   position: sticky;
   background-repeat: no-repeat;
   width:1280px;
