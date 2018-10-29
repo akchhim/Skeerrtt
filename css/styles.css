@@ -245,12 +245,14 @@ bottom: 30px;
   background-image:url(https://www.publicdomainpictures.net/pictures/210000/nahled/tire-tracks-background.jpg);
   background-attachment: fixed;
   position: sticky;
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
   width:1280px;
   height: 1250px;
   background-size: cover;
-
 }
+
+
+
 #mochi {
   width: 1280px;;
   height: 100px;
@@ -319,6 +321,7 @@ iframe {
   font-style: oblique;
   width: 580px;
 }
+
 /* Contact Page */
 
 .phone {
