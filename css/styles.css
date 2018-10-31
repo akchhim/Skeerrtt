@@ -321,75 +321,22 @@ float: left;
   border: 3px solid black;
 }
 
+
+
+
+
 /* Contact Page */
 
-.phone {
-  text-decoration: none;
-  color: black;
+
+
+.contactform {
+  transform: translate(-180px, -20px);
 }
 
-.phonenumber {
-  transform: translate(950px, -340px);
-  font-size: 22px;
-  font-weight: bold;
-  text-decoration: none;
-  text-decoration-color: black;
-
-}
-
-.phoneicon {
-  float: right;
-  transform: translate(-450px, -340px);
-  height: 60px;
-  width: 60px;
-}
-
-.mailicon {
-  float: right;
-  height: 70px;
-  width: 70px;
-  transform: translate(-385px, -310px);
-}
-
-.emailaddress {
-  float: right;
-  transform: translate(-45px, -300px);
-  font-weight: bold;
-}
-
-h1 {
-  text-align: center;
+.contacthead {
+  color: white;
   font-size: 60px;
-  font-weight: lighter;
-  overflow: hidden;
-}
-
-h1:before,
-h1:after {
- background-color: #333;
- content: "";
- display: inline-block;
- height: 3px;
- position: relative;
- vertical-align: middle;
- width: 25%;
-}
-
-h1:before{
-  right: 0.5em;
-  margin-left: -50%;
-}
-
-h1:after{
-  left: 0.5em;
-  margin-right: -50%;
-}
-
-h3 {
   text-align: center;
-  font-weight: lighter;
-  color: grey;
-  font-size: 20px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
@@ -417,7 +364,7 @@ input::placeholder, textarea::placeholder {
   font-size: 0.875em;
 }
 
-input:focus::placeholder, textarea:focus:placeholder {
+input:focus::placeholder, textarea::focus:placeholder {
   color: #bbb5af;
 }
 
@@ -429,8 +376,6 @@ input::-ms-placeholder, textarea::-ms-placeholder {
 input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
   color: #bbb5af;
 }
-
-/* on hover placeholder */
 
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
   color: #e2dedb;
@@ -464,29 +409,28 @@ input:hover::placeholder, textarea:hover::placeholder {
   font-size: 0.875em;
 }
 
-input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   color: #cbc6c1;
 }
 
 #form {
   position: relative;
-  width: 1200px;
-  margin: 50px auto 100px auto;
-  border-radius: 5px
+  width: 500px;
+  margin: 90px auto 100px auto;
 }
 
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 650px;
+  width: 870px;
   height: 50px;
   padding: 0px 15px 0px 15px;
-
   background: transparent;
+  background-color: white;
   outline: none;
-  color: #322f30;
+  color: #726659;
 
-  border: solid 3px #322f30;
+  border: solid 3px black;
   border-bottom: none;
 
   transition: all 0.3s ease-in-out;
@@ -495,21 +439,27 @@ input {
   -ms-transition: all 0.3s ease-in-out;
 }
 
+input:hover {
+  background-color: white;
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
 textarea {
-  width: 650px;
-  max-width: 650px;
+  width: 870px;
+  max-width: 870px;
   height: 110px;
   max-height: 110px;
   padding: 15px;
 
-  background: transparent;
+  background-color: white;
   outline: none;
 
-  color: #322f30;
+  color: #726659;
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
 
-  border: solid 3px #322f30;
+  border: solid 3px black;
 
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -517,161 +467,95 @@ textarea {
   -ms-transition: all 0.3s ease-in-out;
 }
 
+textarea:hover {
+  background-color: white;
+  background: #b3aca7;
+  color: #e2dedb;
+}
 
 #submit {
-  width: 650px;
+  width: 870px;
 
   padding: 0;
   margin: -5px 0px 0px 0px;
 
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  color: #322f30;
+  color: #b3aca7;
 
   outline:none;
   cursor: pointer;
 
-  border: solid 3px #322f30;
+  border: solid 3px black;
   border-top: none;
+  background-color: white;
 }
 
-/* social media buttons vvv */
-
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
-.socialmediaicons {
-  transform: translate(850px, -190px);
+#submit:hover {
+  color: grey;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    margin:  1% 0 1% 0;
+
+
+/* socia media icons */
+
+
+
+.social {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  transform: translate(180px, 200px);
 }
 
-._12 {
-    font-size: 1.2em;
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 50px;
 }
 
-._14 {
-    font-size: 1.4em;
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-ul {
-    padding:0;
-    list-style: none;
+.social .link:hover {
+  padding: 10px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
 }
 
-.footer-social-icons {
-    width: 350px;
-    display:block;
-    margin: 0 auto;
+.social .link.google-plus {
+  background-color: tomato;
+  color: white;
 }
 
-.social-icon {
-    color: #fff;
+.social .link.youtube {
+  background-color: red;
+  color: white;
 }
 
-ul.social-icons {
-    margin-top: 10px;
+.social .link.facebook {
+  background-color: #3B5998;
+  color: white;
 }
 
-.social-icons li {
-    vertical-align: top;
-    display: inline;
-    height: 100px;
-}
 
-.social-icons a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.fa-facebook {
-    padding: 10px 12px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-    border-radius: 5px;
-}
-
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
-
-.fa-twitter {
-    padding: 10px 10px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-    border-radius: 5px;
-}
-
-.fa-twitter:hover {
-    background-color: #00aced;
-}
-
-.fa-rss {
-    padding: 10px 10px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-    border-radius: 5px;
-}
-
-.fa-rss:hover {
-    background-color: #eb8231;
-}
-
-.fa-youtube {
-    padding: 10px 10px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-    border-radius: 5px;
-}
-
-.fa-youtube:hover {
-    background-color: #e64a41;
-}
-
-.fa-linkedin {
-    padding: 10px 10px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-    border-radius: 5px;
-}
-
-.fa-linkedin:hover {
-    background-color: #0073a4;
-}
-
-.fa-google-plus {
-    padding: 10px 7px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-    border-radius: 5px;
-}
-
-.fa-google-plus:hover {
-    background-color: #e25714;
-}
+/* contact page end */
