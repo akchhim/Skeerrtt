@@ -447,7 +447,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 
 #form {
   position: relative;
-  width: 500px;
+  width: 880px;
   margin: 90px auto 100px auto;
 }
 
@@ -538,7 +538,7 @@ textarea:hover {
   width: 100%;
   top: 50%;
   text-align: center;
-  transform: translate(180px, 200px);
+  transform: translate(-8px, 200px);
 }
 
 .social .link {
