@@ -69,8 +69,8 @@ div.menuBar li.active a {
    width: 1277px;
    span:100%;
    height: 163px;
- background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/06/19/19580f1d0ed3690.jpg);
-    background-repeat: no-repeat;
+   background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/06/19/19580f1d0ed3690.jpg);
+   background-repeat: no-repeat;
     z-index: -1;
     border: 3px solid black;
     margin-top: 50px;
@@ -327,8 +327,6 @@ float: left;
   border: 3px solid black;
 }
 
-<<<<<<< HEAD
-=======
 .dropdown {
     position: relative;
     display: inline-block;
@@ -352,23 +350,21 @@ float: left;
 }
 
 /* Contact Page */
->>>>>>> 6bf788b192aecac20191f6aa4e0e6f860fa614fa
 
 
 
-
-/* Contact Page */
 
 
 
 .contactform {
-  transform: translate(-180px, -20px);
+  transform: translate(1px, -20px);
 }
 
 .contacthead {
   color: white;
   font-size: 60px;
   text-align: center;
+  font-weight: bold;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
@@ -538,7 +534,7 @@ textarea:hover {
   width: 100%;
   top: 50%;
   text-align: center;
-  transform: translate(-8px, 200px);
+  transform: translate(-8px, 700px);
 }
 
 .social .link {
@@ -588,6 +584,21 @@ textarea:hover {
   background-color: #3B5998;
   color: white;
 }
+
+/* Phone icon */
+
+.phoneicon {
+  transform: translate(280px, 30px);
+  color: white;
+}
+
+.pnumber {
+  text-decoration: none;
+  transform: translate(410px, -28px);
+  color: white;
+  font-weight: bold;
+}
+
 
 
 /* contact page end */
