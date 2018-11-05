@@ -70,8 +70,17 @@ div.menuBar li.active a {
    background-size: cover;
    width: 1277px;
    height: 163px;
+<<<<<<< HEAD
     margin-top: 10px;
 margin-left: 20px;
+=======
+   background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/06/19/19580f1d0ed3690.jpg);
+   background-repeat: no-repeat;
+    z-index: -1;
+    border: 3px solid black;
+    margin-top: 50px;
+
+>>>>>>> 712ed84a956d24f72d5c47a9b470e4d589c109d1
  }
 
 .grid-item {
@@ -327,7 +336,10 @@ float: left;
   margin-top: 9px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 712ed84a956d24f72d5c47a9b470e4d589c109d1
 .dropdown {
     position: relative;
     display: inline-block;
@@ -351,23 +363,26 @@ float: left;
 }
 
 /* Contact Page */
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 712ed84a956d24f72d5c47a9b470e4d589c109d1
 
 
 
-
-
-/* Contact Page */
 
 
 
 .contactform {
-  transform: translate(-180px, -20px);
+  transform: translate(1px, -20px);
 }
 
 .contacthead {
   color: white;
   font-size: 60px;
   text-align: center;
+  font-weight: bold;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
@@ -537,7 +552,7 @@ textarea:hover {
   width: 100%;
   top: 50%;
   text-align: center;
-  transform: translate(-8px, 200px);
+  transform: translate(-8px, 700px);
 }
 
 .social .link {
@@ -547,7 +562,7 @@ textarea:hover {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px dotted white;
   background-clip: content-box;
   padding: 10px;
   transition: .5s;
@@ -587,6 +602,21 @@ textarea:hover {
   background-color: #3B5998;
   color: white;
 }
+
+/* Phone icon */
+
+.phoneicon {
+  transform: translate(280px, 30px);
+  color: white;
+}
+
+.pnumber {
+  text-decoration: none;
+  transform: translate(410px, -28px);
+  color: white;
+  font-weight: bold;
+}
+
 
 
 /* contact page end */
