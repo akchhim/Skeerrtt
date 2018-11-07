@@ -70,17 +70,15 @@ div.menuBar li.active a {
    background-size: cover;
    width: 1277px;
    height: 163px;
-<<<<<<< HEAD
     margin-top: 10px;
 margin-left: 20px;
-=======
-   background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/06/19/19580f1d0ed3690.jpg);
+
    background-repeat: no-repeat;
     z-index: -1;
     border: 3px solid black;
     margin-top: 50px;
 
->>>>>>> 712ed84a956d24f72d5c47a9b470e4d589c109d1
+
  }
 
 .grid-item {
@@ -249,8 +247,8 @@ bottom: 30px;
   border: 3px solid black;
   margin-top: 0px;
   height: 1250px;
-  width: 1000px;
-  margin-left: 150px;
+  width: 1100px;
+  margin-left: 85px;
   background-image:url(https://ae01.alicdn.com/kf/HTB1vphKJFXXXXbwXpXXq6xXFXXXY/vinyl-5x7ft-Fashion-Beautiful-Road-Photography-Backdrop-Attractive-Blue-Sky-Photo-Background-For-Outdoors-Film-TV.jpg_640x640.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -620,3 +618,24 @@ textarea:hover {
 
 
 /* contact page end */
+
+/* AboutUs Page */
+#dorame {
+  width: 350px;
+  height: 500px;
+  margin-left: 50px;
+  border: 3px solid black;
+  margin-top: 50px;
+}
+
+#nicely {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+}
+
+#waffle {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 200px;
+}
