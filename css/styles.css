@@ -71,22 +71,10 @@ div.menuBar li.active a {
    width: 1277px;
    height: 163px;
     margin-top: 10px;
-<<<<<<< HEAD
-    margin-left: 20px;
-   background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/06/19/19580f1d0ed3690.jpg);
-=======
-margin-left: 20px;
-
->>>>>>> 6a0ba4d28fc6ad6090f391dfd03029093bd164bf
    background-repeat: no-repeat;
     z-index: -1;
     border: 3px solid black;
     margin-top: 50px;
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 6a0ba4d28fc6ad6090f391dfd03029093bd164bf
  }
 
 .grid-item {
