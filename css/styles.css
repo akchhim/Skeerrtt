@@ -70,17 +70,14 @@ div.menuBar li.active a {
    background-size: cover;
    width: 1277px;
    height: 163px;
-<<<<<<< HEAD
     margin-top: 10px;
-margin-left: 20px;
-=======
+    margin-left: 20px;
    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/06/19/19580f1d0ed3690.jpg);
    background-repeat: no-repeat;
     z-index: -1;
     border: 3px solid black;
     margin-top: 50px;
 
->>>>>>> 712ed84a956d24f72d5c47a9b470e4d589c109d1
  }
 
 .grid-item {
@@ -121,7 +118,7 @@ button {
 .top {
   border: 3px solid black;
   height: 250px;
-  background-image: url(http://www.transformproperty.co.in/blog/wp-content/uploads/2014/05/Dark-Grey-Background-103.jpg);
+  background-color: rgb(60, 60, 60);
   background-size: cover;
   background-blend-mode: darken;
   width: 1280px;
@@ -256,7 +253,7 @@ bottom: 30px;
   background-size: cover;
 }
 #back {
-  background-image:url(http://www.transformproperty.co.in/blog/wp-content/uploads/2014/05/Dark-Grey-Background-103.jpg);
+  background-color: rgb(60, 60, 60);
   background-attachment: fixed;
   position: sticky;
     background-repeat: no-repeat;
@@ -336,10 +333,6 @@ float: left;
   margin-top: 9px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 712ed84a956d24f72d5c47a9b470e4d589c109d1
 .dropdown {
     position: relative;
     display: inline-block;
@@ -363,16 +356,6 @@ float: left;
 }
 
 /* Contact Page */
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 712ed84a956d24f72d5c47a9b470e4d589c109d1
-
-
-
-
-
 
 .contactform {
   transform: translate(1px, -20px);
