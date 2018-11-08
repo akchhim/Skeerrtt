@@ -356,7 +356,7 @@ float: left;
 /* Contact Page */
 
 .contactform {
-  transform: translate(1px, -20px);
+  transform: translate(-15px, -20px);
 }
 
 .contacthead {
@@ -364,6 +364,16 @@ float: left;
   font-size: 60px;
   text-align: center;
   font-weight: bold;
+}
+
+.contactbox {
+  transform: translate(93px, -100px);
+  background-color: white;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  height: 500px;
+  width: 350px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
@@ -449,7 +459,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 870px;
+  width: 900px;
   height: 50px;
   padding: 0px 15px 0px 15px;
   background: transparent;
@@ -473,8 +483,8 @@ input:hover {
 }
 
 textarea {
-  width: 870px;
-  max-width: 870px;
+  width: 900px;
+  max-width: 900px;
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -501,7 +511,7 @@ textarea:hover {
 }
 
 #submit {
-  width: 870px;
+  width: 900px;
 
   padding: 0;
   margin: -5px 0px 0px 0px;
@@ -587,15 +597,15 @@ textarea:hover {
 /* Phone icon */
 
 .phoneicon {
-  transform: translate(280px, 30px);
-  color: white;
+  transform: translate(110px, -570px);
 }
 
 .pnumber {
   text-decoration: none;
-  transform: translate(410px, -28px);
-  color: white;
+  transform: translate(225px, -630px);
+  color: black;
   font-weight: bold;
+  font-size: 25px;
 }
 
 
