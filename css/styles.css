@@ -277,9 +277,7 @@ margin-right: 0px;
 
 #full {
 border: 3px solid black;
-background: #0060f5;
-height: 1000px;
-width: 1000px;
+background: #0060f5;x
 }
 
 #half {
@@ -373,6 +371,13 @@ float: left;
   border-color: black;
   height: 500px;
   width: 350px;
+}
+
+.headingbox {
+  background-color: grey;
+  transform: translate(300px, -800px);
+  height: 100px;
+  width: 800px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
@@ -593,7 +598,7 @@ textarea:hover {
   color: white;
 }
 
-/* Phone icon */
+/* info box */
 
 .phoneicon {
   transform: translate(110px, -570px);
@@ -605,6 +610,25 @@ textarea:hover {
   color: black;
   font-weight: bold;
   font-size: 25px;
+}
+
+.locationicon {
+  transform:translate(110px, -550px);
+}
+
+.locationtext {
+  transform: translate(210px, -610px);
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.mailicon {
+  transform: translate(110px, -520px);
+}
+
+.mailtext {
+  transform: translate(200px, -300px);
 }
 
 
