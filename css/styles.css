@@ -354,7 +354,7 @@ float: left;
 /* Contact Page */
 
 .contactform {
-  transform: translate(-15px, -20px);
+  transform: translate(-15px, 100px);
 }
 
 .contacthead {
@@ -365,8 +365,8 @@ float: left;
 }
 
 .contactbox {
-  transform: translate(93px, -100px);
-  background-color: white;
+  transform: translate(93px, 50px);
+  background-color: rgb(60, 60, 60);
   border-style: solid;
   border-width: medium;
   border-color: black;
@@ -375,10 +375,20 @@ float: left;
 }
 
 .headingbox {
-  background-color: grey;
-  transform: translate(300px, -800px);
+  background-color: rgb(60, 60, 60);
+  transform: translate(150px, -900px);
   height: 100px;
   width: 800px;
+  border-width: medium;
+  border-style: solid;
+  border-color: black;
+}
+
+.headingboxtext {
+  transform: translate(215px, -970px);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
@@ -602,34 +612,36 @@ textarea:hover {
 /* info box */
 
 .phoneicon {
-  transform: translate(110px, -570px);
+  transform: translate(110px, -510px);
 }
 
 .pnumber {
   text-decoration: none;
-  transform: translate(225px, -630px);
-  color: black;
+  transform: translate(225px, -570px);
+  color: white;
   font-weight: bold;
   font-size: 25px;
 }
 
 .locationicon {
-  transform:translate(110px, -550px);
+  transform:translate(110px, -480px);
 }
 
 .locationtext {
-  transform: translate(210px, -610px);
+  transform: translate(210px, -540px);
   font-size: 20px;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
 .mailicon {
-  transform: translate(110px, -520px);
+  transform: translate(110px, -440px);
 }
 
 .mailtext {
-  transform: translate(200px, -300px);
+  transform: translate(225px, -500px);
+  color: white;
+  font-weight: bold;
 }
 
 
@@ -637,6 +649,8 @@ textarea:hover {
 /* contact page end */
 
 /* AboutUs Page */
+
+
 #dorame {
   width: 350px;
   height: 500px;
