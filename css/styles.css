@@ -385,6 +385,8 @@ float: left;
   border-color: black;
 }
 
+
+
 .headingboxtext {
   transform: translate(215px, -970px);
   color: white;
@@ -553,7 +555,7 @@ textarea:hover {
   width: 100%;
   top: 50%;
   text-align: center;
-  transform: translate(-8px, 700px);
+  transform: translate(-100px, 860px);
 }
 
 .social .link {
@@ -607,39 +609,48 @@ textarea:hover {
 /* info box */
 
 .phoneicon {
-  transform: translate(110px, -510px);
+  transform: translate(125px, -530px);
 }
 
 .pnumber {
   text-decoration: none;
-  transform: translate(225px, -570px);
+  transform: translate(235px, -600px);
   color: white;
   font-weight: bold;
   font-size: 25px;
 }
 
 .locationicon {
-  transform:translate(110px, -480px);
+  transform:translate(124px, -510px);
 }
 
 .locationtext {
-  transform: translate(210px, -540px);
+  transform: translate(213px, -581px);
   font-size: 20px;
   color: white;
   font-weight: bold;
 }
 
+.locationtext2 {
+  transform: translate(260px, -589px);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .mailicon {
-  transform: translate(110px, -440px);
+  transform: translate(124px, -510px);
 }
 
 .mailtext {
-  transform: translate(225px, -500px);
+  transform: translate(229px, -574px);
   color: white;
   font-weight: bold;
 }
 
+#googleMap {
 
+}
 
 /* contact page end */
 
