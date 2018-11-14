@@ -80,7 +80,7 @@ div.menuBar li.active a {
 
 .grid-item {
 display: inline-grid;
-margin-top: 10px;
+margin-top: 0px;
 margin-left: 60px;
 float:left;
 transition: transform .2s;
@@ -99,6 +99,9 @@ transition: transform .2s;
   margin-top: 0px;
 }
 
+#sizematters {
+
+}
 
 #mix {
   background-image: url(https://www.seachem.com/img/product-images/flourite-black-bulk.jpg);
@@ -681,4 +684,45 @@ box-shadow: 6px 3px black;
   margin-top: 30px;
   margin-left: 20px;
   width: 200px;
+}
+
+#noon{
+  font size: 25px
+
+
+}
+
+/*Product Page*/
+
+
+#steam {
+  width: 100px;
+}
+
+#droptop {
+  width: 90px;
+}
+
+#skin {
+  border: 2px solid black;
+}
+
+#bones {
+  border: 2px solid black;
+  margin-top: 100px;
+}
+
+#sell {
+background-color: grey;
+}
+ #maxis {
+   margin-right: 20px;
+ }
+
+#next {
+  margin-right: 50px;
+}
+
+#gyo {
+margin-right: 50px;
 }
