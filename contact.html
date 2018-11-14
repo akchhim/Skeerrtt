@@ -61,6 +61,8 @@
 </head>
 <body>
 
+<!-- contact form -->
+
 <div class="contactform">
 
   <form id="form" class="topBefore">
@@ -70,7 +72,11 @@
 		  <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
       <input id="submit" type="submit" value="GO!">
       </form>
-    </div>
+    </div>\
+
+<!-- contact form end -->
+
+<!-- contact information box-->
 
 <div class="contactbox">
 </div>
@@ -102,6 +108,10 @@
     <a href="https://plus.google.com/108447123240913825599/posts?hl=en" class="link google-plus" target="_parent"><span class="fa fa-google-plus-square"></span></a>
 </div>
 
+<!-- contact information box end -->
+
+<!-- Google Map -->
+
 <div id="contactmap" style="width:46%; height:497px;"></div>
 
 <script>
@@ -110,13 +120,16 @@ var mapProp= {
     center:new google.maps.LatLng(35.656941, -88.855385),
     zoom: 18,
   };
-var map=new google.maps.Map(document.getElementById("contactmap"),mapProp);
+var map = new google.maps.Map(document.getElementById
+  ("contactmap"),mapProp);
 }
 
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQZrubQEF8aPOnFOpLNHgbxBuCBKM9CKY
 &callback=myMap"></script>
+
+<!-- google map end -->
 
 </body>
 
