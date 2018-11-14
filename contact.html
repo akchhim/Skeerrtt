@@ -75,9 +75,25 @@
 <div class="contactbox">
 </div>
 
+<div class="headingbox">
+</div>
+
+<h4 class="headingboxtext"> Feel free to contact us about any questions or feedback you may have. </h4>
+
 <div class="phone">
-  <img class="phoneicon" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/mobile-1976104_960_720.png" width="30" height="30">
+  <img class="phoneicon" src="https://www.androidworld.it/wp-content/uploads/2017/11/google-telefono.png" width="30" height="30">
   <h4 class="pnumber"> 731-668-2424 </h4>
+</div>
+
+<div class="location">
+  <img class="locationicon" src="https://icla.org/wp-content/uploads/2018/02/blue-location-icon-png-19.png" width="25" height="25">
+  <h4 class="locationtext"> 723 Old Hickory Blvd. </h4>
+  <h4 class="locationtext2"> Jackson, TN </h4>
+</div>
+
+<div class="mail">
+  <img class="mailicon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/1024px-Circle-icons-mail.svg.png" width="30" height="30">
+  <h4 class="mailtext"> kingtireco@mail.com </h4>
 </div>
 
 <div class="social">
@@ -85,6 +101,22 @@
     <a href="https://www.youtube.com/channel/UCPoMxRXSPaie63PDKXKU2Hw" class="link youtube" target="_parent"><span class="fa fa-youtube"></span></a>
     <a href="https://plus.google.com/108447123240913825599/posts?hl=en" class="link google-plus" target="_parent"><span class="fa fa-google-plus-square"></span></a>
 </div>
+
+<div id="contactmap" style="width:46%; height:497px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(35.656941, -88.855385),
+    zoom: 18,
+  };
+var map=new google.maps.Map(document.getElementById("contactmap"),mapProp);
+}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQZrubQEF8aPOnFOpLNHgbxBuCBKM9CKY
+&callback=myMap"></script>
 
 </body>
 

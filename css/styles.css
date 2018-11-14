@@ -1,7 +1,7 @@
 body {
    background-color: white;
-
 }
+
 #im {
   height: 60px;
   width: 60px;
@@ -11,6 +11,7 @@ body {
 h2 {
   color: white;
 }
+
 .navbar {
   float: right;
   font-size: 20px;
@@ -281,9 +282,7 @@ margin-right: 0px;
 
 #full {
 border: 3px solid black;
-background: #0060f5;
-height: 1000px;
-width: 1000px;
+background: #0060f5;x
 }
 
 #half {
@@ -359,7 +358,7 @@ float: left;
 /* Contact Page */
 
 .contactform {
-  transform: translate(-15px, -20px);
+  transform: translate(-15px, 100px);
 }
 
 .contacthead {
@@ -370,13 +369,32 @@ float: left;
 }
 
 .contactbox {
-  transform: translate(93px, -100px);
-  background-color: white;
+  transform: translate(93px, 50px);
+  background-color: rgb(60, 60, 60);
   border-style: solid;
   border-width: medium;
   border-color: black;
   height: 500px;
   width: 350px;
+}
+
+.headingbox {
+  background-color: rgb(60, 60, 60);
+  transform: translate(150px, -900px);
+  height: 100px;
+  width: 800px;
+  border-width: medium;
+  border-style: solid;
+  border-color: black;
+}
+
+
+
+.headingboxtext {
+  transform: translate(215px, -970px);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
@@ -515,17 +533,13 @@ textarea:hover {
 
 #submit {
   width: 900px;
-
   padding: 0;
   margin: -5px 0px 0px 0px;
-
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
   color: #b3aca7;
-
   outline:none;
   cursor: pointer;
-
   border: solid 3px black;
   border-top: none;
   background-color: white;
@@ -536,9 +550,7 @@ textarea:hover {
 }
 
 
-
 /* socia media icons */
-
 
 
 .social {
@@ -546,7 +558,7 @@ textarea:hover {
   width: 100%;
   top: 50%;
   text-align: center;
-  transform: translate(-8px, 700px);
+  transform: translate(-100px, 860px);
 }
 
 .social .link {
@@ -597,25 +609,58 @@ textarea:hover {
   color: white;
 }
 
-/* Phone icon */
+/* info box */
 
 .phoneicon {
-  transform: translate(110px, -570px);
+  transform: translate(125px, -530px);
 }
 
 .pnumber {
   text-decoration: none;
-  transform: translate(225px, -630px);
-  color: black;
+  transform: translate(235px, -600px);
+  color: white;
   font-weight: bold;
   font-size: 25px;
 }
 
+.locationicon {
+  transform:translate(124px, -510px);
+}
 
+.locationtext {
+  transform: translate(213px, -581px);
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.locationtext2 {
+  transform: translate(260px, -589px);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mailicon {
+  transform: translate(124px, -510px);
+}
+
+.mailtext {
+  transform: translate(229px, -574px);
+  color: white;
+  font-weight: bold;
+}
+
+#contactmap {
+transform: translate(490px, -990px);
+border-width: medium;
+}
 
 /* contact page end */
 
 /* AboutUs Page */
+
+
 #dorame {
   width: 350px;
   height: 500px;
