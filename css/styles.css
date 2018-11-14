@@ -373,6 +373,7 @@ float: left;
   border-color: black;
   height: 500px;
   width: 350px;
+  box-shadow: 6px 3px black;
 }
 
 .headingbox {
@@ -383,6 +384,7 @@ float: left;
   border-width: medium;
   border-style: solid;
   border-color: black;
+  box-shadow: 6px 3px black;
 }
 
 
@@ -650,8 +652,11 @@ textarea:hover {
 
 #contactmap {
 transform: translate(490px, -990px);
-border-width: medium;
+border:3px solid black;
+box-shadow: 6px 3px black;
 }
+
+
 
 /* contact page end */
 
