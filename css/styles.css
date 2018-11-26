@@ -569,7 +569,7 @@ textarea:hover {
   width: 100%;
   top: 50%;
   text-align: center;
-  transform: translate(-100px, 1080px);
+  transform: translate(-100px, -300px);
 }
 
 .social .link {
