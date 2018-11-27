@@ -54,11 +54,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: black;
+    background-color: f3f4f4;
 }
 
 li .active {
-    background-color: ;
+    background-color: maroon;
 }
 
 div.menuBar li.active a {
@@ -564,7 +564,7 @@ textarea:hover {
   width: 100%;
   top: 50%;
   text-align: center;
-  transform: translate(-100px, 860px);
+  transform: translate(-100px, 450px);
 }
 
 .social .link {
