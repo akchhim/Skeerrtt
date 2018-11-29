@@ -673,7 +673,7 @@ box-shadow: 6px 3px black;
 
 .servicesheadingbox {
   transform: translate(-3px, -3px);
-  background-color: #000161;
+  background-color: #010061;
   height: 100px;
   width: 1100px;
 }
@@ -681,6 +681,19 @@ box-shadow: 6px 3px black;
 .servicesoffered {
   transform: translate(30px, -86px);
   font-size: 35px;
+  font-weight: bold;
+}
+
+.servicesvl {
+  border-left: 2px solid white;
+  height: 50px;
+  transform: translate(350px, -192px);
+}
+
+.servicesheadtext {
+  font-size: 18px;
+  font-weight: bold;
+  transform: translate(395px, -142px);
 }
 
 
