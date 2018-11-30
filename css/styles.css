@@ -696,6 +696,32 @@ box-shadow: 6px 3px black;
   transform: translate(395px, -142px);
 }
 
+.oilchangebox {
+  transform: translate(80px, -100px);
+  background-color: white;
+  border-top: 8px solid #010061;
+  height: 370px;
+  width: 230px;
+}
+
+.oiltitle {
+  font-size: 26px;
+  font-weight: bold;
+  transform: translate(100px, -450px);
+  color: #222222;
+}
+
+.oildescrip {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  color: #222222;
+  transform: translate(100px, -450px);
+}
+
+.oilpic {
+  transform: translate(150px, -420px);
+}
 
 
 /* Services page end */
