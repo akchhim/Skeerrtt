@@ -723,6 +723,32 @@ box-shadow: 6px 3px black;
   transform: translate(137px, -430px);
 }
 
+.acbox {
+  transform: translate(380px, -767px);
+  background-color: white;
+  border-top: 8px solid #010061;
+  height: 370px;
+  width: 230px;
+}
+
+.actitle {
+  font-size: 26px;
+  font-weight: bold;
+  transform: translate(405px, -1118px);
+  color: #222222;
+}
+
+.acdescrip {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  color: #222222;
+  transform: translate(405px, -1120px);
+}
+
+.acpic {
+  transform: translate(452px, -1100px);
+}
 
 /* Services page end */
 
