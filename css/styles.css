@@ -793,12 +793,78 @@ box-shadow: 6px 3px black;
 
 #noon{
   font size: 25px
+}
+
+.garage {
+
+color: white;
+margin-left: 300px;
+font-size: 20px;
+
+}
+
+#daytime {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-style: italic;
+  height: 200px;
+  border:  3px solid gray;
+  margin-bottom: 30px;
+  width: auto;
 
 
 }
 
 /*Product Page*/
 
+#mind {
+height: 300px;
+width: 300px;
+color: white;
+margin-bottom: 50px;
+background-image: url(https://images.remorainc.com/uploads/jm1/p/F3pWXrSJS2asVqDtYoVY_oil-change.png);
+box-shadow: 5px 10px 7px 2px #888888;
+}
+
+
+
+#body {
+height: 300px;
+width: 300px;
+background-image: url(https://www.familyhandyman.com/wp-content/uploads/2017/11/FH08DJA_484_13_023.jpg);
+color: white;
+box-shadow: 5px 10px 7px 2px #888888;
+margin-bottom: 50px;
+}
+
+
+
+#Seoul{
+height: 300px;
+width: 300px;
+background-image: url(https://www.wikihow.com/images/thumb/0/06/Clean-Car-Upholstery-Step-2-Version-2.jpg/aid1099811-v4-728px-Clean-Car-Upholstery-Step-2-Version-2.jpg);
+color: white;
+box-shadow: 5px 10px 7px 2px #888888;
+margin-bottom: 50px;
+}
+
+
+
+#Ground {
+height: 300px;
+width: 300px;
+background-image: url(https://www.huskyliners.com/cache/ex_q80_w400_h_x-act-contour-home-tile.jpg);
+color: white;
+margin-bottom: 50px;
+box-shadow: 5px 10px 7px 2px #888888;
+}
+
+
+
+img{
+height: 300px;
+width: 300px;
+}
 
 #steam {
   width: 100px;
