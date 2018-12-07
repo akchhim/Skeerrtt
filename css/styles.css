@@ -4,6 +4,7 @@ body {
    background-color: white;
    margin: 0;
    font-family: Arial, Helvetica, sans-serif;
+   width:100%;
 }
 
 #im {
@@ -81,7 +82,7 @@ div.menuBar li.active a {
 
  .grid-container {
    background-size: cover;
-   width: 1277px;
+   width: 100%;
    height: 163px;
     margin-top: 10px;
    background-repeat: no-repeat;
@@ -134,7 +135,7 @@ button {
   background-color: rgb(60, 60, 60);
   background-size: cover;
   background-blend-mode: darken;
-  width: 1280px;
+  width: 100%;
   z-index: -1;
   background-repeat: no-repeat;
   }
@@ -250,7 +251,7 @@ bottom: 30px;
   border: 3px solid black;
   margin-top: 0px;
   height: 1250px;
-  width: 1100px;
+  width:90%;
   margin-left: 85px;
   background-image:url(https://ae01.alicdn.com/kf/HTB1vphKJFXXXXbwXpXXq6xXFXXXY/vinyl-5x7ft-Fashion-Beautiful-Road-Photography-Backdrop-Attractive-Blue-Sky-Photo-Background-For-Outdoors-Film-TV.jpg_640x640.jpg);
   background-repeat: no-repeat;
@@ -261,7 +262,7 @@ bottom: 30px;
   background-attachment: fixed;
   position: sticky;
     background-repeat: no-repeat;
-  width:1280px;
+  width:100%;
   height: 1250px;
   background-size: cover;
 }
@@ -269,7 +270,7 @@ bottom: 30px;
 
 
 #mochi {
-  width: 1280px;;
+  width: 100%;
   height: 100px;
   margin-top: 0px;
   border: 3px solid black;
@@ -358,6 +359,7 @@ float: left;
     text-decoration: none;
     display: block;
 }
+
 
 /* Contact Page */
 
