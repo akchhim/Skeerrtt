@@ -1,10 +1,8 @@
-
-
 body {
-   background-color: white;
-   margin: 0;
-   font-family: Arial, Helvetica, sans-serif;
-   width:100%;
+  background-color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 
 #im {
@@ -17,7 +15,6 @@ h2 {
   color: white;
 }
 
-
 .navbar {
   float: right;
   font-size: 20px;
@@ -27,92 +24,84 @@ h2 {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #707075;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #707075;
 }
 
-
-
-
-
 li {
-    float: left;
-    margin-left: 50px;
-  }
-
-
+  float: left;
+  margin-left: 50px;
+}
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: f3f4f4;
+  background-color: f3f4f4;
 }
 
 li .active {
-    background-color: maroon;
+  background-color: maroon;
 }
 
 div.menuBar li.active a {
   color: white;
 }
 
- img {
-   width: 80px;
-   height: 80px;
- }
+img {
+  width: 80px;
+  height: 80px;
+}
 
- p {
-   color: white;
-   position: relative;
-   margin-top: auto;
-   display: run-in;
-   padding-top: 10px;
+p {
+  color: white;
+  position: relative;
+  margin-top: auto;
+  display: run-in;
+  padding-top: 10px;
+}
 
- }
-
- .grid-container {
-   background-size: cover;
-   width: 100%;
-   height: 163px;
-    margin-top: 10px;
-   background-repeat: no-repeat;
-    z-index: -1;
-    border: 3px solid black;
-    margin-top: 50px;
- }
+.grid-container {
+  background-size: cover;
+  width: 100%;
+  height: 163px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border: 3px solid black;
+  margin-top: 50px;
+}
 
 .grid-item {
-display: inline-grid;
-margin-top: 0px;
-margin-left: 60px;
-float:left;
-transition: transform .2s;
+  display: inline-grid;
+  margin-top: 0px;
+  margin-left: 60px;
+  float: left;
+  transition: transform .2s;
 }
 
 .grid-item:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
 }
 
-#king-kong{
+#king-kong {
   width: 300px;
   image-resolution: from-image;
   background-blend-mode: soft-light;
   margin-top: 0px;
 }
-
-
 
 #mix {
   background-image: url(https://www.seachem.com/img/product-images/flourite-black-bulk.jpg);
@@ -124,7 +113,7 @@ transition: transform .2s;
 }
 
 button {
-  box-shadow: 10px 10px rgba(0,0,0,0.4);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
   border: 3px solid black;
   background-image: url(https://static.vecteezy.com/system/resources/previews/000/104/054/non_2x/vector-geometric-yellow-background.jpg);
 }
@@ -138,14 +127,12 @@ button {
   width: 100%;
   z-index: -1;
   background-repeat: no-repeat;
-  }
+}
 
 .contacttop {
   border: 3px solid black;
   height: 175px;
 }
-
-
 
 .topnav {
   overflow: hidden;
@@ -161,7 +148,6 @@ button {
   text-decoration: none;
   font-size: 17px;
   border: 3px solid black;
-
 }
 
 .topnav a:hover {
@@ -170,15 +156,14 @@ button {
 }
 
 .topnav a.active {
-  background: -moz-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(11%, rgba(179,179,177,1)), color-stop(16%, rgba(185,184,169,1)), color-stop(76%, rgba(252,243,70,1)), color-stop(100%, rgba(252,243,70,1)));
-  background: -webkit-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  background: -o-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  background: -ms-linear-gradient(top, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
-  background: linear-gradient(to bottom, rgba(179,179,177,1) 11%, rgba(185,184,169,1) 16%, rgba(252,243,70,1) 76%, rgba(252,243,70,1) 100%);
+  background: -moz-linear-gradient(top, rgba(179, 179, 177, 1) 11%, rgba(185, 184, 169, 1) 16%, rgba(252, 243, 70, 1) 76%, rgba(252, 243, 70, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(11%, rgba(179, 179, 177, 1)), color-stop(16%, rgba(185, 184, 169, 1)), color-stop(76%, rgba(252, 243, 70, 1)), color-stop(100%, rgba(252, 243, 70, 1)));
+  background: -webkit-linear-gradient(top, rgba(179, 179, 177, 1) 11%, rgba(185, 184, 169, 1) 16%, rgba(252, 243, 70, 1) 76%, rgba(252, 243, 70, 1) 100%);
+  background: -o-linear-gradient(top, rgba(179, 179, 177, 1) 11%, rgba(185, 184, 169, 1) 16%, rgba(252, 243, 70, 1) 76%, rgba(252, 243, 70, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(179, 179, 177, 1) 11%, rgba(185, 184, 169, 1) 16%, rgba(252, 243, 70, 1) 76%, rgba(252, 243, 70, 1) 100%);
+  background: linear-gradient(to bottom, rgba(179, 179, 177, 1) 11%, rgba(185, 184, 169, 1) 16%, rgba(252, 243, 70, 1) 76%, rgba(252, 243, 70, 1) 100%);
   margin-top: 65px;
 }
-
 
 .topnav input[type=text] {
   float: left;
@@ -190,7 +175,7 @@ button {
   font-size: 17px;
 }
 
- {
+  {
   .topnav a, .topnav input[type=text] {
     float: none;
     display: block;
@@ -206,14 +191,14 @@ button {
 }
 
 footer {
-background-color: gray;
-left: 30px;
-bottom: 30px;
- display: block;
- border: 3px solid black;
- margin-top: 25px;
- float: left;
- margin-left: 60px;
+  background-color: gray;
+  left: 30px;
+  bottom: 30px;
+  display: block;
+  border: 3px solid black;
+  margin-top: 25px;
+  float: left;
+  margin-left: 60px;
 }
 
 .nice {
@@ -221,21 +206,24 @@ bottom: 30px;
   opacity: .5;
 }
 
-
 .hfoot {
   float: bottom;
   left: 30px;
   bottom: 30px;
   float: right;
-   border: 1px solid black;
+  border: 1px solid black;
 }
-#fudge:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
-} {
 
+#fudge:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
 }
+
+  {}
+
 .mind {
   margin-bottom: 90px;
 }
@@ -251,31 +239,30 @@ bottom: 30px;
   border: 3px solid black;
   margin-top: 0px;
   height: 1250px;
-  width:90%;
+  width: 90%;
   margin-left: 85px;
-  background-image:url(https://ae01.alicdn.com/kf/HTB1vphKJFXXXXbwXpXXq6xXFXXXY/vinyl-5x7ft-Fashion-Beautiful-Road-Photography-Backdrop-Attractive-Blue-Sky-Photo-Background-For-Outdoors-Film-TV.jpg_640x640.jpg);
+  background-image: url(https://ae01.alicdn.com/kf/HTB1vphKJFXXXXbwXpXXq6xXFXXXY/vinyl-5x7ft-Fashion-Beautiful-Road-Photography-Backdrop-Attractive-Blue-Sky-Photo-Background-For-Outdoors-Film-TV.jpg_640x640.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #back {
-  background-color: rgb(60, 60, 60);
+  background-image:url(http://res.freestockphotos.biz/pictures/2/2093-a-wall-of-piled-car-tires-pv.jpg);
   background-attachment: fixed;
   position: sticky;
-    background-repeat: no-repeat;
-  width:100%;
+  background-repeat: no-repeat;
+  width: 100%;
   height: 1250px;
   background-size: cover;
 }
 
-
-
 #mochi {
   width: 100%;
   height: 100px;
-  margin-top: 0px;
+  margin-top: 0%;
   border: 3px solid black;
   background-image: url(https://www.seachem.com/img/product-images/flourite-black-bulk.jpg);
-margin-right: 0px;
+  margin-right: 0px;
 }
 
 .item {
@@ -284,38 +271,39 @@ margin-right: 0px;
 }
 
 #full {
-border: 3px solid black;
-background: #0060f5;x
+  border: 3px solid black;
+  background: #0060f5;
+  x
 }
 
 #half {
-border: 3px solid black;
-background: #ffff5a;
-width: 750px;
-height: 1025px;
-margin-top: 150px;
+  border: 3px solid black;
+  background: #ffff5a;
+  width: 750px;
+  height: 1025px;
+  margin-top: 150px;
 }
 
 #man {
- margin-top: 300px;
+  margin-top: 300px;
 }
 
 iframe {
   float: right;
 }
 
-#video{
+#video {
   margin-bottom: 285px;
-  box-shadow: 10px 10px rgba(0,0,0,0.4);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 #video2 {
   margin-top: 360px;
-box-shadow: 10px 10px rgba(0,0,0,0.4);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 #noon {
-  color:  white;
+  color: white;
   font-size: 13px;
   margin-bottom: 60px;
   margin-top: 30px;
@@ -323,8 +311,9 @@ box-shadow: 10px 10px rgba(0,0,0,0.4);
 
 #ready {
   color: white;
-float: left;
+  float: left;
 }
+
 #toot {
   width: 450px;
   height: 250px;
@@ -339,30 +328,28 @@ float: left;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
-
 /* Contact Page */
-
 .contactform {
   transform: translate(-15px, 100px);
 }
@@ -395,8 +382,6 @@ float: left;
   border-color: black;
   box-shadow: 6px 3px black;
 }
-
-
 
 .headingboxtext {
   transform: translate(215px, -970px);
@@ -495,10 +480,8 @@ input {
   background-color: white;
   outline: none;
   color: #726659;
-
   border: solid 3px black;
   border-bottom: none;
-
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -517,16 +500,12 @@ textarea {
   height: 110px;
   max-height: 110px;
   padding: 15px;
-
   background-color: white;
   outline: none;
-
   color: #726659;
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-
   border: solid 3px black;
-
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -546,7 +525,7 @@ textarea:hover {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
   color: #b3aca7;
-  outline:none;
+  outline: none;
   cursor: pointer;
   border: solid 3px black;
   border-top: none;
@@ -557,10 +536,7 @@ textarea:hover {
   color: grey;
 }
 
-
 /* socia media icons */
-
-
 .social {
   position: absolute;
   width: 100%;
@@ -618,10 +594,7 @@ textarea:hover {
 }
 
 /* info box */
-
-.phonei
-
-con {
+.phonei con {
   transform: translate(125px, -530px);
 }
 
@@ -634,7 +607,7 @@ con {
 }
 
 .locationicon {
-  transform:translate(124px, -510px);
+  transform: translate(124px, -510px);
 }
 
 .locationtext {
@@ -662,19 +635,13 @@ con {
 }
 
 #contactmap {
-transform: translate(490px, -990px);
-border:3px solid black;
-box-shadow: 6px 3px black;
+  transform: translate(490px, -990px);
+  border: 3px solid black;
+  box-shadow: 6px 3px black;
 }
 
-
-
 /* contact page end */
-
-
-
 /* Services page */
-
 .servicesheadingbox {
   transform: translate(-3px, -3px);
   background-color: #010061;
@@ -759,11 +726,11 @@ box-shadow: 6px 3px black;
 }
 
 .susbox {
-    transform: translate(780px, -1430px);
-    background-color: white;
-    border-top: 8px solid #010061;
-    height: 370px;
-    width: 230px;
+  transform: translate(780px, -1430px);
+  background-color: white;
+  border-top: 8px solid #010061;
+  height: 370px;
+  width: 230px;
 }
 
 .sustitle {
@@ -786,10 +753,7 @@ box-shadow: 6px 3px black;
 }
 
 /* Services page end */
-
 /* AboutUs Page */
-
-
 #dorame {
   width: 350px;
   height: 500px;
@@ -803,6 +767,7 @@ box-shadow: 6px 3px black;
   height: 300px;
   margin-left: 20px;
 }
+
 .ConstumerQuotes {
   color: white;
   margin-left: 110px;
@@ -814,28 +779,27 @@ box-shadow: 6px 3px black;
   margin-left: 20px;
   width: 200px;
 }
+
 #dark {
   margin-bottom: 30px;
   width: 350px;
   margin-left: 30px;
   font size: 15px;
-  height:200px;
+  height: 200px;
   border: 3px solid black;
   margin-left: 50px;
   font-style: italic;
   color: white;
 }
 
-#noon{
+#noon {
   font size: 25px
 }
 
 .garage {
-
-color: white;
-margin-left: 300px;
-font-size: 20px;
-
+  color: white;
+  margin-left: 300px;
+  font-size: 20px;
 }
 
 #daytime {
@@ -843,65 +807,51 @@ font-size: 20px;
   margin-left: 20px;
   font-style: italic;
   height: 200px;
-  border:  3px solid gray;
+  border: 3px solid gray;
   margin-bottom: 30px;
   width: auto;
-
-
 }
 
 /*Product Page*/
-
 #mind {
-height: 165px;
-width: 165px;
-color: white;
-margin-bottom: 10px;
-background-image: url(https://images.remorainc.com/uploads/jm1/p/F3pWXrSJS2asVqDtYoVY_oil-change.png);
-box-shadow: 3px 7px 4px 1px #888888;
-float:left;
+  height: 165px;
+  width: 165px;
+  color: white;
+  margin-bottom: 10px;
+  background-image: url(https://images.remorainc.com/uploads/jm1/p/F3pWXrSJS2asVqDtYoVY_oil-change.png);
+  box-shadow: 3px 7px 4px 1px #888888;
+  float: left;
 }
-
-
 
 #body {
-height: 165px;
-width: 165px;
-background-image: url(https://www.familyhandyman.com/wp-content/uploads/2017/11/FH08DJA_484_13_023.jpg);
-color: white;
-box-shadow: 3px 7px 4px 1px #888888;
-margin-bottom:10px;
-float:left;
+  height: 165px;
+  width: 165px;
+  background-image: url(https://www.familyhandyman.com/wp-content/uploads/2017/11/FH08DJA_484_13_023.jpg);
+  color: white;
+  box-shadow: 3px 7px 4px 1px #888888;
+  margin-bottom: 10px;
+  float: left;
 }
 
-
-
-#Seoul{
-height: 165px;
-width: 165px;
-background-image: url(https://www.wikihow.com/images/thumb/0/06/Clean-Car-Upholstery-Step-2-Version-2.jpg/aid1099811-v4-728px-Clean-Car-Upholstery-Step-2-Version-2.jpg);
-color: white;
-box-shadow: 3px 7px 4px 1px #888888;
-margin-bottom: 10px;
-float:left;
+#Seoul {
+  height: 165px;
+  width: 165px;
+  background-image: url(https://www.wikihow.com/images/thumb/0/06/Clean-Car-Upholstery-Step-2-Version-2.jpg/aid1099811-v4-728px-Clean-Car-Upholstery-Step-2-Version-2.jpg);
+  color: white;
+  box-shadow: 3px 7px 4px 1px #888888;
+  margin-bottom: 10px;
+  float: left;
 }
-
-
 
 #Ground {
-height: 165px;
-width: 165px;
-background-image: url(https://www.huskyliners.com/cache/ex_q80_w400_h_x-act-contour-home-tile.jpg);
-color: white;
-margin-bottom: 10px;
-box-shadow: 3px 7px 4px 1px #888888;
-float:left;
+  height: 165px;
+  width: 165px;
+  background-image: url(https://www.huskyliners.com/cache/ex_q80_w400_h_x-act-contour-home-tile.jpg);
+  color: white;
+  margin-bottom: 10px;
+  box-shadow: 3px 7px 4px 1px #888888;
+  float: left;
 }
-
-
-
-
-
 
 #steam {
   width: 100px;
@@ -921,17 +871,18 @@ float:left;
 }
 
 #sell {
- background: linear-gradient(to right, darkgrey 37%, #ffff00 79%);
-background-size: cover;
+  background: linear-gradient(to right, darkgrey 37%, #ffff00 79%);
+  background-size: cover;
 }
- #maxis {
-   margin-right: 20px;
- }
+
+#maxis {
+  margin-right: 20px;
+}
 
 #next {
   margin-right: 50px;
 }
 
 #gyo {
-margin-right: 50px;
+  margin-right: 50px;
 }
