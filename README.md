@@ -1,6 +1,6 @@
 # King Tire Co.
 
-A website Created by Andrew Chhim and Jacob Emison and Brantoris Dunigan, 11th Grade in Madison Academic Magnet High School, For King Tire Co in Jackson Tn.
+A website Created by Andrew Chhim, Jacob Emison and Brantoris Dunigan, 11th Grade in Madison Academic Magnet High School, For King Tire Co in Jackson Tn.
 
 Contact us: Andrew Chhim- andrew.chhim@students.jmcss.org Jacob Emison- jacob.emison@students.jmcss.org Brantoris Dunigan- Brantoris.Dunigan@students.jmcss.org
 
